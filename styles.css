@@ -1,0 +1,58 @@
+/* Styles for the entire page */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+}
+
+#navbar header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#main-doc {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 20px;
+}
+
+.main-section header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-section p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  #navbar {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
